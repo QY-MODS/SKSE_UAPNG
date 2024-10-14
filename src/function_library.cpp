@@ -6,6 +6,7 @@
 #include <filesystem>
 #include <string>
 #include <vector>
+#include <windows.h>
 
 void SendDebugNotification(const char* message, const char* soundToPlay, bool cancelIfAlreadyQueued) {
     if (config::bEnableNotifications) {
